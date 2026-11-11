@@ -1,21 +1,12 @@
-## Descripción
-¿Qué cambia este PR y por qué?
+### Qué cambia
 
-Issue relacionado: #
 
-## Tipo de cambio
-- [ ] Nueva funcionalidad
-- [ ] Corrección de error
-- [ ] Refactorización
-- [ ] Documentación
-- [ ] Configuración / infraestructura
+Cierra #
 
-## ¿Cómo se probó?
-Describe las pruebas realizadas.
+### Cómo se probó
 
-## Checklist
-- [ ] El código compila y las pruebas pasan
-- [ ] Se probó localmente
-- [ ] Se actualizó la documentación si aplica
-- [ ] No se incluyen credenciales ni datos sensibles
-- [ ] Los scripts de base de datos (si aplica) están incluidos
+
+### Antes de pedir revisión
+- [ ] Compila y pasan las pruebas
+- [ ] Sin credenciales ni `.env` en el commit
+- [ ] Scripts de BD incluidos (si aplica)
