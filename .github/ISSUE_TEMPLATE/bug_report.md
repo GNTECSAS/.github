@@ -1,29 +1,23 @@
 ---
-name: 🐞 Reporte de error
-about: Reporta un comportamiento incorrecto del sistema
+name: Reporte de error
+about: Algo no funciona como debería
 title: "[BUG] "
 labels: bug
 assignees: ''
 ---
 
-## Descripción
-Describe de forma clara qué está fallando.
+**Qué pasa**
 
-## Pasos para reproducir
-1. Ir a '...'
-2. Hacer clic en '...'
-3. Ver el error
 
-## Comportamiento esperado
-¿Qué debería pasar?
+**Cómo reproducirlo**
+1. 
+2. 
 
-## Comportamiento actual
-¿Qué pasa en realidad?
+**Qué debería pasar**
 
-## Evidencia
-Capturas de pantalla, logs o mensajes de error.
 
-## Entorno
-- Ambiente: (desarrollo / pruebas / producción)
-- Navegador y versión:
-- Versión o rama:
+**Ambiente**
+Pruebas / producción, rama o versión:
+
+**Capturas o logs**
+
