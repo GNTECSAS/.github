@@ -1,2 +1,2 @@
 # .github
-Perfil público de la organización GnTec S.A.S.
+Perfil público de  GnTec S.A.S.
