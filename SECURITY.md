@@ -1,13 +1,3 @@
-# Política de seguridad
+# Seguridad
 
-## Reportar una vulnerabilidad
-
-Si encuentras una vulnerabilidad en alguno de nuestros proyectos, **no abras un issue público**.
-
-Escríbenos a **soporte@gntec.com.co** con:
-
-- Descripción de la vulnerabilidad
-- Pasos para reproducirla
-- Impacto potencial
-
-Confirmaremos la recepción y te mantendremos informado sobre la corrección.
+Si encuentras una vulnerabilidad en alguno de nuestros proyectos, no abras un issue. Escríbenos a soporte@gntec.com.co con los detalles y cómo reproducirla, y te respondemos por ese medio.
