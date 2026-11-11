@@ -1,20 +1,17 @@
 ---
-name: ✨ Solicitud de funcionalidad
-about: Propón una mejora o funcionalidad nueva
+name: Nueva funcionalidad
+about: Requerimiento nuevo o mejora sobre algo existente
 title: "[FEATURE] "
 labels: enhancement
 assignees: ''
 ---
 
-## Necesidad
-¿Qué problema resuelve o qué necesidad cubre?
+**Qué se necesita y para quién**
 
-## Propuesta
-Describe la solución que propones.
 
-## Criterios de aceptación
-- [ ] ...
-- [ ] ...
+**Propuesta**
 
-## Información adicional
-Mockups, referencias o contexto del cliente.
+
+**Criterios de aceptación**
+- [ ] 
+- [ ] 
