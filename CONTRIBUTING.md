@@ -1,42 +1,33 @@
-# Guía de contribución — GnTec S.A.S.
+# Cómo trabajamos
 
-## Repositorios
+## Repos
 
-- Nombres en minúscula y con guiones: `proyecto-componente` (ej. `agendamiento-backend`, `agendamiento-frontend`).
-- La rama principal es siempre `main`.
-- Todo repositorio debe tener un `README.md` con descripción, requisitos y cómo ejecutarlo.
+Nombre en minúscula con guiones: `proyecto-componente` (ej. `agendamiento-backend`). La rama principal es `main`. Cada repo lleva un README con lo necesario para levantarlo en local.
 
 ## Ramas
 
-| Prefijo     | Uso                                   | Ejemplo                        |
-|-------------|---------------------------------------|--------------------------------|
-| `feature/`  | Funcionalidad nueva                   | `feature/agenda-por-medico`    |
-| `fix/`      | Corrección de errores                 | `fix/validacion-fechas`        |
-| `hotfix/`   | Corrección urgente en producción      | `hotfix/caida-login`           |
-| `chore/`    | Configuración, dependencias, limpieza | `chore/actualizar-spring-boot` |
+- `feature/nombre-corto` para funcionalidades
+- `fix/nombre-corto` para errores
+- `hotfix/nombre-corto` para urgencias en producción
+- `chore/nombre-corto` para dependencias, configuración, etc.
 
 ## Commits
 
-Usamos [Conventional Commits](https://www.conventionalcommits.org/es/):
+Formato `tipo: descripción`, en minúscula:
 
-```
-feat: agrega filtro de citas por especialidad
-fix: corrige cálculo de disponibilidad
-docs: actualiza instrucciones de despliegue
-refactor: separa servicio de notificaciones
-chore: actualiza dependencias
-```
+    feat: filtro de citas por especialidad
+    fix: validación de fechas en el agendamiento
+    chore: actualiza spring boot a 3.3
 
-## Flujo de trabajo
+Tipos: `feat`, `fix`, `refactor`, `docs`, `chore`, `test`.
 
-1. Crea tu rama desde `main` actualizada.
-2. Haz commits pequeños y descriptivos.
-3. Abre un pull request hacia `main` usando la plantilla.
-4. Espera la revisión de un líder técnico antes de hacer merge.
-5. Borra la rama después del merge.
+## Pull requests
 
-## Seguridad
+1. Rama desde `main` actualizado.
+2. PR hacia `main` con la plantilla llena.
+3. Mínimo una aprobación de un líder técnico.
+4. Merge y se borra la rama.
 
-- Nunca subas contraseñas, tokens, llaves ni archivos `.env`.
-- Usa variables de entorno o los secretos del repositorio.
-- Si subiste un secreto por error, avisa de inmediato al líder técnico para rotarlo.
+## Secretos
+
+Nada de contraseñas, tokens ni archivos `.env` en el repo. Si se sube uno por error, avisar de una vez al líder técnico para cambiarlo; borrarlo en otro commit no es suficiente.
